@@ -20,4 +20,5 @@ if __name__ == "__main__":
         t.left(ANGLE)
     t.end_fill()
 
+    t.ht()
     s.exitonclick()
