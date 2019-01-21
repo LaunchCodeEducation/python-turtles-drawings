@@ -22,3 +22,13 @@ def draw_reg_poly(t, n, s):
 
 def draw_square(t, s):
     draw_reg_poly(t, 4, s)
+
+
+def draw_triangle(t, s):
+    draw_reg_poly(t, 3, s)
+
+
+def draw_inv_triangle(t, s):
+    for i in range(3):
+        t.forward(s)
+        t.right(120)
